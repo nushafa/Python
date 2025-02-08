@@ -1,0 +1,27 @@
+## Nested for Loops
+
+When we have a loop inside a loop, it is known as a nested loop
+
+We can use Nested for loops as well.
+
+The inner loop is executed every time for each iteration of the outer loop
+
+Example:
+
+1 adj = ["red", "healthy", "tasty"]
+2 fruits = ["apple", "banana", "cherry"]
+3
+4 for x in adj:
+5     for y in fruits:
+6         print(x, y)
+## Output
+
+red apple
+red banana
+red cherry
+healthy apple
+healthy banana
+healthy cherry
+tasty apple
+tasty banana
+tasty cherry
